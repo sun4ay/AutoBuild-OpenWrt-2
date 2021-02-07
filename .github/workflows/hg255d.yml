@@ -5,15 +5,15 @@
 # Youtube Channel: https://goo.gl/fvkdwm 
 #=================================================
 
-name: hg255d
+name: Build_Redmi_AC2100
 
 on: 
   release:
     types: [published]
 
-   push:
-     branches: 
-       - master
+  #push:
+  #  branches: 
+  #    - master
 
   #schedule:
   #  - cron: 0 8 * * 5
@@ -70,7 +70,7 @@ jobs:
         ./scripts/feeds update -a
         ./scripts/feeds install -a
         ./scripts/feeds install -a
-    - name: Configuration Customization - Build_Newifi_D2
+    - name: Configuration Customization - Build_Redmi_AC2100
       env:
         CONFIG_FILE: 'hg255d.config'
       run: |
