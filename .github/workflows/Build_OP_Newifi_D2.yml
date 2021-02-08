@@ -5,7 +5,7 @@
 # Youtube Channel: https://goo.gl/fvkdwm 
 #=================================================
 
-name: Build_Newifi_D2
+name: hg255d_Newifi_D2
 
 on: 
   release:
